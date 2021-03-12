@@ -1,0 +1,27 @@
+{
+  "name": "historyback",
+  "version": "1.0.0",
+  "description": "History back is a service to relay json-rpc with encryption",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilshookim/historyback.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilshookim/historyback/issues"
+  },
+  "homepage": "https://github.com/ilshookim/historyback#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "sequelize": "^6.5.0",
+    "sqlite": "^4.0.19",
+    "winston-rsyslog": "^0.0.2"
+  }
+}
